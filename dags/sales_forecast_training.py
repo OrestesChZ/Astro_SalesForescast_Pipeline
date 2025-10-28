@@ -36,3 +36,4 @@ def sales_forecast_training():
         )
 
         print("Generating realistic sales data ...")
+        file_path = generator.generate_sales_data(output_dir=data_output_dir)
